@@ -1,0 +1,12 @@
+# Keep this repository limited to the public BIC website.
+*
+!.gitignore
+!README.md
+!index.html
+!styles.css
+!script.js
+!bic-logo-transparent.png
+!bic-hero-visual.png
+!.github/
+!.github/workflows/
+!.github/workflows/deploy-pages.yml
