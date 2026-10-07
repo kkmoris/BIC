@@ -1,11 +1,11 @@
-# 炬光智慧顧問企業｜Brightwise Intelligence Consulting
+# BIC｜炬光智慧顧問企業
 
-炬光智慧顧問企業的靜態公司介紹網站，使用 HTML、CSS 與 JavaScript 製作。
+炬光智慧顧問企業（Brightwise Intelligence Consulting）的靜態公司介紹網站，使用 HTML、CSS 與 JavaScript 製作。
 
-## GitHub Pages 部署
+## GitHub Pages
 
-此儲存庫包含 GitHub Actions 工作流程。將 `main` 分支推送到 GitHub 後，工作流程會把網站需要的首頁、樣式、互動程式與 BIC 品牌圖片部署到 GitHub Pages。
+網站由 `main` 分支的根目錄（`/(root)`）發布。設定位置：GitHub 儲存庫 **Settings → Pages**，來源選 **Deploy from a branch**，分支選 **main**，資料夾選 **/(root)**。
 
-在 GitHub 儲存庫的 **Settings → Pages** 中，將建置與部署來源設為 **GitHub Actions**。部署完成後，GitHub Actions 會顯示網站網址，網址格式通常為 `https://<owner>.github.io/<repository>/`。
+公開網址：<https://kkmoris.github.io/BIC/>
 
-網站部署只會打包以下檔案：`index.html`、`styles.css`、`script.js`、`bic-logo-transparent.png`、`bic-hero-visual.png`。
+主要網站檔案：`index.html`、`styles.css`、`script.js`、`bic-logo-transparent.png`、`bic-hero-visual.png`。
